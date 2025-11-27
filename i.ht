@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amrutha K R - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Amrutha K R</h1>
+    <p>Computer Science Student | Hassan, Karnataka</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#summary">Summary</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#resume">Resume</a></li> <!-- added link -->
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="summary">
+    <h2>Summary</h2>
+    <p>I am a Computer Science and Engineering student with interest in programming and technology. 
+       I have basic knowledge of Python, Java, C, and HTML. I enjoy learning through practical work 
+       and developing simple applications. I am a quick learner, responsible, and motivated to improve 
+       my technical skills through projects and internship opportunities.</p>
+  </section>
+
+  <section id="project">
+    <h2>Project</h2>
+    <p><strong>IoT-Based Irrigation System:</strong> Created a smart irrigation system using IoT sensors 
+       to monitor soil moisture and control the water flow automatically, helping reduce water usage 
+       and manual work.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>B.E. (Computer Science) – Malnad College of Engineering, Hassan (Ongoing)</li>
+      <li>Puc (12th) – Christ the King PU College, K.R. Pet</li>
+      <li>SSLC – KPS School, Kikkeri</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: Python, Java, C</li>
+      <li>Core Subjects: Data Structures, Operating Systems</li>
+      <li>Web Technology: HTML</li>
+      <li>Other Skills: Debugging, Logical Thinking</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <p>No formal experience (open to internship opportunities).</p>
+  </section>
+
+  <section id="languages">
+    <h2>Languages</h2>
+    <ul>
+      <li>English</li>
+      <li>Kannada</li>
+    </ul>
+  </section>
+
+  <!-- ✅ New Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <p><a href="resume.pdf" download>📄 Download Full Resume (PDF)</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="contact.php" method="POST" onsubmit="return validateForm()">
+      <input type="text" name="name" id="name" placeholder="Your Name" required>
+      <input type="email" name="email" id="email" placeholder="Your Email" required>
+      <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
